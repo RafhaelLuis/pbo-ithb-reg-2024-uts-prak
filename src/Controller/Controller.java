@@ -81,6 +81,8 @@ public class Controller {
                 return -1;
             }
         }
+
+        tikets.get(0).setPrice(paymentCost);
         
         return paymentCost;
     }
