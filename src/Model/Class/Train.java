@@ -31,5 +31,11 @@ public class Train {
         this.trainType = trainType;
     }
 
+    public void  getTrainDetail(){
+        System.out.println(trainNumber);
+        System.out.println(trainName);
+        System.out.println(trainType);
+    }
+
     
 }

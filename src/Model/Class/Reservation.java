@@ -22,5 +22,7 @@ abstract public class Reservation {
         this.reservationDate = reservationDate;
     }
 
+
+
     
 }

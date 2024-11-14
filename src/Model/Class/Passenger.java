@@ -36,5 +36,12 @@ public class Passenger {
         this.passengerAge = passengerAge;
     }
 
+    public void  getPassengerInfo(){
+        System.out.println(passengerId);
+        System.out.println(passengerName);
+        System.out.println(passengerGender);
+        System.out.println(passengerAge);
+    }
+
     
 }
