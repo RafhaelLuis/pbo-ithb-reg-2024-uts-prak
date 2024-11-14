@@ -1,5 +1,5 @@
 package Model.Enum;
 
 public enum TiketStatus {
-    PAID , 
+    PAID , CANCELED , AWAITING_PAYMENT
 }

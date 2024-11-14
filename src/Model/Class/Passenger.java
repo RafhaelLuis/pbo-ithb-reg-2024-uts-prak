@@ -3,7 +3,7 @@ package Model.Class;
 public class Passenger {
     private String passengerId;
     private String passengerName;
-    private int passengerGender;
+    private int passengerGender; // 0 = lakilaki , 1 = wanita
     private int passengerAge;
     public Passenger(String passengerId, String passengerName, int passengerGender, int passengerAge) {
         this.passengerId = passengerId;

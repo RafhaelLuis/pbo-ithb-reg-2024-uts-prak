@@ -1,12 +1,15 @@
 package Model.Class;
 
-public class GroupReservation extends Passenger {
+import java.util.Date;
+
+public class GroupReservation extends Reservation {
     private String groupName;
     private int numberOfPassenger;
+
     
-    public GroupReservation(String passengerId, String passengerName, int passengerGender, int passengerAge,
-            String groupName, int numberOfPassenger) {
-        super(passengerId, passengerName, passengerGender, passengerAge);
+    
+    public GroupReservation(int reservationId, Date reservationDate, String groupName, int numberOfPassenger) {
+        super(reservationId, reservationDate);
         this.groupName = groupName;
         this.numberOfPassenger = numberOfPassenger;
     }
